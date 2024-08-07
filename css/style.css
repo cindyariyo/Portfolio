@@ -1333,6 +1333,12 @@ pre {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
+    .button-container {
+      display: flex;
+      justify-content: start; /* Aligns buttons to the start of the container */
+      gap: 35px; /* Creates space between buttons */
+  }
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
